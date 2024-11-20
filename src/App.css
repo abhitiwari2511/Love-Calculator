@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url(./assets/pexels-pixabay-220072.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
