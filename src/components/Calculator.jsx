@@ -50,7 +50,7 @@ const Calculator = () => {
           />
         </div>
         <div className="flex justify-center mt-8">
-          <button onClick={setScoreFunction} className="rounded-full bg-cyan-500 w-36 font-semibold text-black h-10">Calculate Love</button>
+          <button onClick={setScoreFunction} className="rounded-full bg-cyan-500 w-36 font-semibold text-black h-10">Calculate Score</button>
         </div>
         <div className="text-green-600 flex justify-center font-bold mt-4 text-2xl">
             {score !== null && <h1>Your Love Score is : {score}</h1>}
